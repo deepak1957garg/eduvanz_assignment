@@ -46,8 +46,10 @@ Actors : Users (who registered), Admins (Organisers of events)
 				  3) StatsHandler (will get all stats from stats table and send to view(html))
 				  4) SearchResults (will get serach results)
 				  5) View(pages) can be graphical using any data tools like D4.js etc 
+				  6) Request Cleaner for proper data to avoid sql inections or avoiding cross site scripting
 
 
 		On web pages : 1) validation should be done
 		               2) shows content as per user roles
-		               		  
+		               3) for form security use csrf tokens
+		              		  
